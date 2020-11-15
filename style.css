@@ -1,0 +1,145 @@
+* {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.content-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 128px;
+  margin-right: 128px;
+  margin-top: 128px;
+}
+
+.section-about-me {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-principal,
+.tittle-two {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  color: #1c1c1b;
+}
+
+.about-me {
+  font-family: "Roboto", sans-serif;
+  color: #1c1c1b;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 200%;
+  width: 823.95px;
+  height: 245.66px;
+  margin-bottom: 78px;
+}
+
+.line {
+  border: 7px solid #1c1c1b;
+  width: 150px;
+}
+
+.social-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.facebook,
+.linkedin {
+  margin-right: 64px;
+}
+
+ul {
+  padding: 0;
+  margin-top: 24px;
+}
+
+hr {
+  margin-top: 64px;
+  height: 2px;
+  border-radius: 5px;
+}
+
+.content-project-one,
+.content-project-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 88px;
+}
+
+.content-project-two {
+  margin-bottom: 88px;
+}
+
+.section-two,
+hr {
+  margin-right: 128px;
+  margin-left: 128px;
+}
+
+.tittle-two {
+  margin-top: 64px;
+}
+
+.card-project-one,
+.card-project-two,
+.card-project-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff8ff;
+  box-shadow: 0px 2.87574px 10.0651px 3.59468px rgba(0, 0, 0, 0.12);
+  width: 358px;
+  height: 280px;
+}
+
+.content-title-project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #273365;
+  width: 332px;
+  height: 58px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  margin-top: 8px;
+}
+
+.titles-projects {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff8ff;
+  font-family: "Nunito", sans-serif;
+}
+
+.img-project {
+  width: 332px;
+  height: 184px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.line-decoration {
+  width: 358px;
+  height: 7px;
+  background: #273365;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+}
