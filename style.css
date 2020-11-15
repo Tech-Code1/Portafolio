@@ -10,11 +10,13 @@ body {
 
 .content-section {
   display: flex;
+  align-items: center;
   flex-direction: row;
   justify-content: space-between;
   margin-left: 128px;
   margin-right: 128px;
   margin-top: 128px;
+  height: 100vh;
 }
 
 @media (max-width: 900px) {
@@ -136,6 +138,10 @@ hr {
   height: 184px;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
+}
+
+.image-about-me {
+  height: 500px;
 }
 
 .line-decoration {
